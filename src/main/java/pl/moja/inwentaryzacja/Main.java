@@ -19,7 +19,7 @@ public class Main extends Application {
         BorderPane borderPane = loader.load();
         Scene scene = new Scene(borderPane);
         primaryStage.setScene(scene);
-        primaryStage.setTitle("inwentaryzacja");
+        primaryStage.setTitle("inwentaryzacjaaa");
         primaryStage.show();
 
     }
