@@ -5,6 +5,10 @@ import javafx.fxml.FXML;
 
 public class TopMenuButtonsController {
 
+    private MainController mainController; // referencja do maincontrollera tak zeby topMenuButtons mógł wpływac na mainBorderPane
+
+
+
     @FXML
     public void openLibrary(){
         System.out.println("open library");
@@ -18,9 +22,11 @@ public class TopMenuButtonsController {
 
     @FXML
     public void openStatistics(){
-        System.out.println("openStatistics");
+        System.out.println("openStatiffstics");
 
     }
 
-
+    public void setMainController(MainController mainController) {
+        this.mainController = mainController;
+    }
 }
