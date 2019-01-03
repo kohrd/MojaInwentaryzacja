@@ -6,12 +6,15 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
+import javafx.scene.control.ButtonType;
 import javafx.scene.control.CheckMenuItem;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
+import pl.moja.inwentaryzacja.dialogs.DialogUtils;
 
 import java.io.IOException;
 import java.util.Locale;
+import java.util.Optional;
 import java.util.ResourceBundle;
 
 public class MainController {
@@ -48,8 +51,13 @@ public class MainController {
     }
 
     public void closeApplication() {
-        Platform.exit();
-        System.exit(0);
+        Optional<ButtonType> doYouReallyWantToExit = DialogUtils.confirmationOnExit();
+        // sprawdzamy jak rpzycisk został naciśnięty
+        // obsługujemy tylko przycisk ok
+        if (doYouReallyWantToExit.get() == ButtonType.OK){
+            Platform.exit();
+            System.exit(0);
+        }
     }
 
     public void setCaspian() {
@@ -73,5 +81,6 @@ public class MainController {
     }
 
     public void about() {
+        DialogUtils.dialogAboutApplication();
     }
 }

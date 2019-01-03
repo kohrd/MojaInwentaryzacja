@@ -1,3 +1,4 @@
 26. resourceBundles
 27. ładowanie formatek, dodanie przycisku nowa książka, ścieżki jako stałe w topMenuButtons<controller
 28. dodanie menu, zmiana stylów, dsotęp do stage w contorllerze (setAlwaysOnTop)
+29. oknadialogowe "about me" i potwierdzajace wyjście z aplikacji www.code.makery.ch/blog/javafx-dialogs-official/
