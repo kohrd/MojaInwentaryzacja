@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbe336a1-79c9-41f2-95da-f96774a71028" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/wersje.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/moja/inwentaryzacja/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/moja/inwentaryzacja/controllers/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/moja/inwentaryzacja/controllers/TopMenuButtonsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/moja/inwentaryzacja/controllers/TopMenuButtonsController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/bundles/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bundles/messages.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/bundles/messages_pl.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bundles/messages_pl.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/TopMenuButtons.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/TopMenuButtons.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/BorderPaneMain.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/BorderPaneMain.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bundles/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bundles/messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bundles/messages_pl.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bundles/messages_pl.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/BorderPaneMain.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/BorderPaneMain.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,17 +22,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="225">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/inwentaryzacja/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="26" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#185#186#0" expanded="true" />
-                <element signature="e#213#214#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="84">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -36,22 +36,75 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/TopMenuButtons.fxml">
           <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+            <state relative-caret-position="348">
+              <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/inwentaryzacja/controllers/TopMenuButtonsController.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/BorderPaneMain.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="400">
+              <caret line="36" column="64" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/inwentaryzacja/controllers/MainController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#632#633#0" expanded="true" />
-                <element signature="e#654#655#0" expanded="true" />
+                <element signature="e#1491#1492#0" expanded="true" />
+                <element signature="e#1573#1574#0" expanded="true" />
+                <element signature="e#1583#1584#0" expanded="true" />
+                <element signature="e#1664#1665#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/bundles/messages.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+            </state>
+          </provider>
+          <provider editor-type-id="ResourceBundle" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/bundles/messages_pl.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+            </state>
+          </provider>
+          <provider editor-type-id="ResourceBundle" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/inwentaryzacja/controllers/TopMenuButtonsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/wersje.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -61,7 +114,7 @@
           <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -86,16 +139,17 @@
         <option value="$PROJECT_DIR$/src/main/resources/fxml/BorderPaneMain.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/bundless/messages_pl.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/bundless/messages.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/moja/inwentaryzacja/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/bundles/messages_pl.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/bundles/messages.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/fxml/TopMenuButtons.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/fxml/AddBook.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/moja/inwentaryzacja/controllers/MainController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/fxml/Library.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/fxml/ListBooks.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/fxml/Statistics.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/moja/inwentaryzacja/controllers/TopMenuButtonsController.java" />
+        <option value="$PROJECT_DIR$/src/main/wersje.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/moja/inwentaryzacja/controllers/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/bundles/messages_pl.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/bundles/messages.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/moja/inwentaryzacja/Main.java" />
       </list>
     </option>
   </component>
@@ -107,10 +161,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1776" />
-    <option name="y" value="391" />
-    <option name="width" value="1296" />
-    <option name="height" value="730" />
+    <option name="x" value="2102" />
+    <option name="y" value="531" />
+    <option name="width" value="1016" />
+    <option name="height" value="560" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -118,7 +172,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,10 +249,11 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546441393763" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546512216013" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -259,33 +313,33 @@
     <frame x="1920" y="312" width="1366" height="768" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20256025" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20481928" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3287037" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3287037" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3287037" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3287037" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -296,40 +350,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/BorderPaneMain.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/icons/book.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/bundles/messages_pl.properties">
-      <provider editor-type-id="ResourceBundle" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/bundles/messages.properties">
-      <provider editor-type-id="ResourceBundle" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/TopMenuButtons.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/ListBooks.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
@@ -355,45 +377,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/inwentaryzacja/controllers/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="36" column="35" lean-forward="true" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/inwentaryzacja/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="26" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/AddBook.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/inwentaryzacja/controllers/TopMenuButtonsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="420">
+          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/TopMenuButtons.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/BorderPaneMain.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="36" column="64" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/javafx-src.zip!/javafx/application/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3655">
+          <caret line="144" column="22" selection-start-line="144" selection-start-column="22" selection-end-line="144" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/javafx-src.zip!/javafx/event/ActionEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/wersje.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/inwentaryzacja/controllers/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1491#1492#0" expanded="true" />
+            <element signature="e#1573#1574#0" expanded="true" />
+            <element signature="e#1583#1584#0" expanded="true" />
+            <element signature="e#1664#1665#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bundles/messages_pl.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bundles/messages.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/inwentaryzacja/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
