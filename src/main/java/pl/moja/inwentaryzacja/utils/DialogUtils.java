@@ -1,16 +1,17 @@
-package pl.moja.inwentaryzacja.dialogs;
+package pl.moja.inwentaryzacja.utils;
 
 import javafx.scene.control.Alert;
 import javafx.scene.control.ButtonType;
+import javafx.scene.control.TextArea;
 
 import java.util.Optional;
 import java.util.ResourceBundle;
 
 public class DialogUtils {
 
-    static ResourceBundle bundle = ResourceBundle.getBundle("bundles.messages");
+    static ResourceBundle bundle = FxmlUtils.getResourceBundle();
 
-    public static void dialogAboutApplication(){
+    public static void dialogAboutApplication() {
         // okno informacyjne o aplikacji
         Alert informationAlert = new Alert(Alert.AlertType.INFORMATION);
         informationAlert.setTitle(bundle.getString("about.tittle"));
@@ -20,7 +21,7 @@ public class DialogUtils {
 
     }
 
-    public static Optional<ButtonType> confirmationOnExit(){
+    public static Optional<ButtonType> confirmationOnExit() {
         Alert confirmationOnExit = new Alert(Alert.AlertType.CONFIRMATION);
         confirmationOnExit.setTitle(bundle.getString("exit.title"));
         confirmationOnExit.setHeaderText(bundle.getString("exit.header"));
@@ -30,5 +31,17 @@ public class DialogUtils {
 
     }
 
+    public static void errorDialog(String error) {
+        //okno obsługujące błędy
+        Alert errorAlert = new Alert(Alert.AlertType.ERROR);
+        errorAlert.setTitle(bundle.getString("error.title"));
+        errorAlert.setHeaderText(bundle.getString("error.header"));
+        TextArea textArea = new TextArea(error);
+        errorAlert.getDialogPane().setContent(textArea);
 
+        errorAlert.setContentText(error);
+
+        errorAlert.showAndWait();
+
+    }
 }

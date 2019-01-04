@@ -10,7 +10,8 @@ import javafx.scene.control.ButtonType;
 import javafx.scene.control.CheckMenuItem;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
-import pl.moja.inwentaryzacja.dialogs.DialogUtils;
+import pl.moja.inwentaryzacja.utils.DialogUtils;
+import pl.moja.inwentaryzacja.utils.FxmlUtils;
 
 import java.io.IOException;
 import java.util.Locale;
@@ -34,19 +35,8 @@ public class MainController {
 
 
     public void setCenter(String fxmlPath) {
-        FXMLLoader loader = new FXMLLoader(this.getClass().getResource(fxmlPath));
 
-        Locale.setDefault(new Locale("en")); // ustawianei jezyka dla bundless na odpowiedni
-        ResourceBundle bundle = ResourceBundle.getBundle("bundles.messages");
-        loader.setResources(bundle);
-
-        Parent parent = null;
-        try {
-            parent = loader.load();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        borderPane.setCenter(parent);
+        borderPane.setCenter(FxmlUtils.fxmlLoader(fxmlPath));
 
     }
 

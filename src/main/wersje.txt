@@ -2,3 +2,11 @@
 27. ładowanie formatek, dodanie przycisku nowa książka, ścieżki jako stałe w topMenuButtons<controller
 28. dodanie menu, zmiana stylów, dsotęp do stage w contorllerze (setAlwaysOnTop)
 29. oknadialogowe "about me" i potwierdzajace wyjście z aplikacji www.code.makery.ch/blog/javafx-dialogs-official/
+30. refaktoryzacja metody ładowania formatek fxmlLoader, obsługa wyjątków
+    coś nie tak z bundles - ładuje tylko defaultowe
+    NIE COMMITOWANE!
+31. konfigurowanie mavena robienie fatJara
+32. podpięcie ORMLite i bazyDanych, implementacja interfejsu, stworzenie modeli do bazy
+
+
+
