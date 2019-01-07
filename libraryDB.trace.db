@@ -1,0 +1,9 @@
+2019-01-07 12:59:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "AUTHORS" not found; SQL statement:
+DROP TABLE `AUTHORS`  [42102-193]
+2019-01-07 12:59:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "BOOKS" not found; SQL statement:
+DROP TABLE `BOOKS`  [42102-193]
+2019-01-07 12:59:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "CATEGORIES" not found; SQL statement:
+DROP TABLE `CATEGORIES`  [42102-193]

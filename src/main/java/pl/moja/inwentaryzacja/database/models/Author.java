@@ -4,11 +4,9 @@ import com.j256.ormlite.dao.ForeignCollection;
 import com.j256.ormlite.field.DatabaseField;
 import com.j256.ormlite.field.ForeignCollectionField;
 import com.j256.ormlite.table.DatabaseTable;
-
 @DatabaseTable(tableName = "AUTHORS")
-public class Author implements BaseModel {
-
-    public Author(int id) {
+public class Author implements BaseModel{
+    public Author() {
     }
 
     @DatabaseField(generatedId = true)
@@ -18,9 +16,7 @@ public class Author implements BaseModel {
     private String nameAndSurname;
 
     @ForeignCollectionField(eager = true)
-    //to chyba przechowuje w bazie kolekcje jakichś obiektów
     private ForeignCollection<Book> books;
-
 
     public int getId() {
         return id;

@@ -4,11 +4,15 @@ import com.j256.ormlite.jdbc.JdbcConnectionSource;
 import com.j256.ormlite.logger.Logger;
 import com.j256.ormlite.logger.LoggerFactory;
 import com.j256.ormlite.support.ConnectionSource;
+import com.j256.ormlite.table.TableUtils;
+import pl.moja.inwentaryzacja.database.models.Author;
+import pl.moja.inwentaryzacja.database.models.Book;
+import pl.moja.inwentaryzacja.database.models.Category;
 
+import java.io.IOException;
 import java.sql.SQLException;
 
 public class DbManager {
-
 
     private static final Logger LOGGER = LoggerFactory.getLogger(DbManager.class);
 
@@ -18,24 +22,55 @@ public class DbManager {
 
     private static ConnectionSource connectionSource;
 
-    public static void initDatabase() {
-//        createConnectioSource();
-//        dropTable();
-//        createtable();
-//        closeConnectionSource();
+    public static void initDatabase(){
+        createConnectionSource();
+        dropTable();
+        createTable();
+        closeConnectionSource();
     }
 
-    private static void createConnectionSource() {
-
+    private static void createConnectionSource(){
         try {
-            connectionSource = new JdbcConnectionSource(JDBC_DRIVER_HD, USER, PASS) {
-
-
-            }
+            connectionSource = new JdbcConnectionSource(JDBC_DRIVER_HD,USER, PASS);
         } catch (SQLException e) {
             LOGGER.warn(e.getMessage());
         }
     }
 
-// SKONCZONE NA LEKCJI 32 CZAS 7:37
+    public static ConnectionSource getConnectionSource(){
+        if(connectionSource == null){
+            createConnectionSource();
+        }
+        return connectionSource;
+    }
+
+    public static void closeConnectionSource(){
+        if(connectionSource!=null){
+            try {
+                connectionSource.close();
+            } catch (IOException e) {
+                LOGGER.warn(e.getMessage());
+            }
+        }
+    }
+
+    private static void createTable(){
+        try {
+            TableUtils.createTableIfNotExists(connectionSource, Author.class);
+            TableUtils.createTableIfNotExists(connectionSource, Book.class);
+            TableUtils.createTableIfNotExists(connectionSource, Category.class);
+        } catch (SQLException e) {
+            LOGGER.warn(e.getMessage());
+        }
+    }
+
+    private  static  void  dropTable(){
+        try {
+            TableUtils.dropTable(connectionSource, Author.class, true);
+            TableUtils.dropTable(connectionSource, Book.class, true);
+            TableUtils.dropTable(connectionSource, Category.class, true);
+        } catch (SQLException e) {
+            LOGGER.warn(e.getMessage());
+        }
+    }
 }

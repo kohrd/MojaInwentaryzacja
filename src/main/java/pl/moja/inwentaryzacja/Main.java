@@ -6,6 +6,7 @@ import javafx.scene.Scene;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
+import pl.moja.inwentaryzacja.database.dbUtilities.DbManager;
 import pl.moja.inwentaryzacja.utils.FxmlUtils;
 
 import java.util.Locale;
@@ -30,6 +31,8 @@ public class Main extends Application {
         primaryStage.setScene(scene);
         primaryStage.setTitle(FxmlUtils.getResourceBundle().getString("title.application")); //ustawianie tytutłu aplikacji za pmocą bundles
         primaryStage.show();
+
+        DbManager.initDatabase();
 
     }
 }

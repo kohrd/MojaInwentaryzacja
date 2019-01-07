@@ -5,21 +5,19 @@ import com.j256.ormlite.field.DatabaseField;
 import com.j256.ormlite.field.ForeignCollectionField;
 import com.j256.ormlite.table.DatabaseTable;
 
-@DatabaseTable (tableName = "CATEGORIES")
-public class Category implements BaseModel{
-
+@DatabaseTable(tableName = "CATEGORIES")
+public class Category implements BaseModel {
     public Category() {
     }
 
     @DatabaseField(generatedId = true)
-    private  int id;
+    private int id;
 
     @DatabaseField(columnName = "NAME", canBeNull = false)
     private String name;
 
     @ForeignCollectionField(eager = true)
     private ForeignCollection<Book> books;
-
 
     public int getId() {
         return id;

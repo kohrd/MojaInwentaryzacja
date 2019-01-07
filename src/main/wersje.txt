@@ -7,6 +7,8 @@
     NIE COMMITOWANE!
 31. konfigurowanie mavena robienie fatJara
 32. podpięcie ORMLite i bazyDanych, implementacja interfejsu, stworzenie modeli do bazy
+    usuniecie niepotrzbnych importów z mavena
+    wersje dependency takie jak w kursie
 
 
 

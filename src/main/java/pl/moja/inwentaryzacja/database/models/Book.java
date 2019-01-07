@@ -6,23 +6,24 @@ import com.j256.ormlite.table.DatabaseTable;
 import java.util.Date;
 
 @DatabaseTable(tableName = "BOOKS")
-public class Book implements BaseModel {
+public class Book implements BaseModel{
 
-    public Book(){
-        //kontruktor
+    public Book() {
     }
+
+    @DatabaseField(generatedId = true)
+    private int id;
 
     @DatabaseField(columnName = "AUTHOR_ID", foreign = true, foreignAutoRefresh = true, foreignAutoCreate = true, canBeNull = false)
     private Author author;
-
     @DatabaseField(columnName = "CATEGORY_ID", foreign = true, foreignAutoRefresh = true, foreignAutoCreate = true, canBeNull = false)
     private Category category;
 
-    @DatabaseField(columnName = "TITLE", canBeNull = false)
+    @DatabaseField(columnName = "TITTLE", canBeNull = false)
     private String title;
 
     @DatabaseField(columnName = "RELEASE_DATE")
-    private Date releDate;
+    private Date relaseDate;
 
     @DatabaseField(columnName = "ISBN", width = 1)
     private long isbn;
@@ -30,9 +31,16 @@ public class Book implements BaseModel {
     @DatabaseField(columnName = "RATING", width = 1)
     private int rating;
 
-    @DatabaseField(columnName = "ADDED_DATE", width = 1)
+    @DatabaseField(columnName = "ADDED_DATE")
     private Date addedDate;
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public Author getAuthor() {
         return author;
@@ -58,12 +66,12 @@ public class Book implements BaseModel {
         this.title = title;
     }
 
-    public Date getReleDate() {
-        return releDate;
+    public Date getRelaseDate() {
+        return relaseDate;
     }
 
-    public void setReleDate(Date releDate) {
-        this.releDate = releDate;
+    public void setRelaseDate(Date relaseDate) {
+        this.relaseDate = relaseDate;
     }
 
     public long getIsbn() {
