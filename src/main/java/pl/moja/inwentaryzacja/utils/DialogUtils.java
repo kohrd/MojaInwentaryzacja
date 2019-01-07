@@ -39,7 +39,7 @@ public class DialogUtils {
         TextArea textArea = new TextArea(error);
         errorAlert.getDialogPane().setContent(textArea);
 
-        errorAlert.setContentText(error);
+//        errorAlert.setContentText(error);
 
         errorAlert.showAndWait();
 

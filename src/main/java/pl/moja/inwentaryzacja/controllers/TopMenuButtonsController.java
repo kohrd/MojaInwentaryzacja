@@ -10,6 +10,7 @@ public class TopMenuButtonsController {
     public static final String FXML_LIST_BOOKS_FXML = "/fxml/ListBooks.fxml";
     public static final String FXML_STATISTICS_FXML = "/fxml/Statistics.fxml";
     public static final String FXML_ADD_BOOK_FXML = "/fxml/AddBook.fxml";
+    public static final String FXML_ADD_CATEGORY_FXML = "/fxml/AddCategory.fxml";
 
 
     private MainController mainController; // referencja do maincontrollera tak zeby topMenuButtons mógł wpływac na mainBorderPane
@@ -45,9 +46,7 @@ public class TopMenuButtonsController {
         // opdznaczanie grupy toggle button jesl wybierzemy przcisk addBook
         // nie jets null tzn jest jakis przycisk z toggleGroup zaznaczony
         // najpierw musimy sprawdzic czy jest cos zaznaczoen zeby nie poleciał nullpointerexc
-        if (toggleButtons.getSelectedToggle() != null) {
-            toggleButtons.getSelectedToggle().setSelected(false);
-        }
+        resetToggleButtons();
         mainController.setCenter(FXML_ADD_BOOK_FXML);
 
 
@@ -55,5 +54,16 @@ public class TopMenuButtonsController {
 
     public void setMainController(MainController mainController) {
         this.mainController = mainController;
+    }
+
+    public void addCategory(ActionEvent actionEvent) {
+        resetToggleButtons();
+        mainController.setCenter(FXML_ADD_CATEGORY_FXML);
+    }
+
+    private void resetToggleButtons() {
+        if (toggleButtons.getSelectedToggle() != null) {
+            toggleButtons.getSelectedToggle().setSelected(false);
+        }
     }
 }

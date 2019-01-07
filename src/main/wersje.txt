@@ -9,6 +9,6 @@
 32. podpięcie ORMLite i bazyDanych, implementacja interfejsu, stworzenie modeli do bazy
     usuniecie niepotrzbnych importów z mavena
     wersje dependency takie jak w kursie
-
+33  nowa formatka
 
 
